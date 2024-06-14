@@ -1,12 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT",
+  "name": "URL Transfer to ChatGPT",
   "version": "1.0",
-  "description": "Gpt",
-  "browser_action": {
+  "description": "Transfers the current URL to https://chatgpt.com",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
     "default_popup": "index.html",
-    "default_icon": "gpt.png"
+    "default_icon": {
+      "16": "gpt (3).png",
+      "48": "gpt (2).png",
+      "128": "gpt.png"
+    }
   }
-
-
 }
