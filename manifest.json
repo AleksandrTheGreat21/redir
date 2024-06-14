@@ -1,19 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Rickstension",
-  "version": "1.5",
-  "description": "Rick.",
-  "permissions": [
-    "tabs"
-  ],
+  "name": "ChatGPT",
+  "version": "1.0",
+  "description": "Gpt",
   "browser_action": {
     "default_popup": "index.html",
-    "default_icon": "youtube.png"
-  },
-  "background": {
-    "persistent": false
-  },
-  "permissions": [
-    "tabs"
-  ]
+    "default_icon": "gpt.png"
+  }
+
+
 }
