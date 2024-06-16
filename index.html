@@ -1,11 +1,25 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <script>
-      chrome.browserAction.onClicked.addListener(function(activeTab)
-      {
-        var newURL = "http://stackoverflow.com/";
-        chrome.tabs.create({ url: newURL });
-      });
-    </script>
+    <title>Transfer URL to ChatGPT</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 200px;
+        padding: 10px;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
   </head>
+  <body>
+    <button id="transferUrl">Transfer URL to ChatGPT</button>
+    <script src="popup.js"></script>
+  </body>
 </html>
