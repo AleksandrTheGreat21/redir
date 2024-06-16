@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "URL Transfer to ChatGPT",
+  "name": "Transferrer to youtube",
   "version": "1.0",
-  "description": "Transfers the current URL to https://chatgpt.com",
+  "description": "Transfers the current URL to https://youtube.com",
   "permissions": ["tabs"],
   "background": {
     "service_worker": "background.js"
